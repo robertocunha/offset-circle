@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: inline-grid;
+}
+
+img {
+  width: 150px;
+  border-radius: 50%;
+}
