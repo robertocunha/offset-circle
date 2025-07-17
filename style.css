@@ -1,4 +1,5 @@
 body {
+    background-color: #555;
   margin: 0;
   display: grid;
   place-items: center;
@@ -9,7 +10,9 @@ body {
   display: inline-grid;
 }
 
-img {
+.bolinha {
   width: 150px;
+  height: 150px;
+  background-color: tomato;
   border-radius: 50%;
 }
