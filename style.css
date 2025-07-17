@@ -1,18 +1,19 @@
 body {
     background-color: #555;
-  margin: 0;
-  display: grid;
-  place-items: center;
-  height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
 }
 
 .container {
-  display: inline-grid;
+    display: inline-grid;
 }
 
 .bolinha {
-  width: 150px;
-  height: 150px;
-  background-color: tomato;
-  border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: tomato;
+    border-radius: 50%;
+    grid-area: 1 / 1;
 }
