@@ -1,19 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #555;
+    color: #ddd;
     margin: 0;
     display: grid;
     place-items: center;
     height: 100vh;
 }
 
-.container {
-    display: inline-grid;
+.orbiter:nth-child(1) {
+    offset: circle(180px) 0% auto ;
+}
+.orbiter:nth-child(2) {
+    offset: circle(180px) 20% auto;
+}
+.orbiter:nth-child(3) {
+    offset: circle(180px) 40% auto;
+}
+.orbiter:nth-child(4) {
+    offset: circle(180px) 60% auto;
+}
+.orbiter:nth-child(5) {
+    offset: circle(180px) 80% auto;
 }
 
-.bolinha {
+.orbiter {
     width: 150px;
     height: 150px;
+
     background-color: tomato;
-    border-radius: 50%;
-    grid-area: 1 / 1;
+    border: solid 4px #ddd;
+    color: #ddd;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 0 10px black;
 }
+
