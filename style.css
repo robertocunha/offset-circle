@@ -14,20 +14,8 @@ body {
     height: 100vh;
 }
 
-.orbiter:nth-child(1) {
-    offset: circle(180px) 0% auto ;
-}
-.orbiter:nth-child(2) {
-    offset: circle(180px) 20% auto;
-}
-.orbiter:nth-child(3) {
-    offset: circle(180px) 40% auto;
-}
-.orbiter:nth-child(4) {
-    offset: circle(180px) 60% auto;
-}
-.orbiter:nth-child(5) {
-    offset: circle(180px) 80% auto;
+.orbiter {
+    offset: circle(180px) calc(100%*sibling-index()/sibling-count()) auto;
 }
 
 .orbiter {
