@@ -15,12 +15,9 @@ body {
 }
 
 .orbiter {
-    offset: circle(180px) calc(100%*sibling-index()/sibling-count()) auto;
-}
-
-.orbiter {
     width: 150px;
     height: 150px;
+    offset: circle(180px) calc(100%*sibling-index()/sibling-count()) auto;
 
     background-color: tomato;
     border: solid 4px #ddd;
